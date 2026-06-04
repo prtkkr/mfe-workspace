@@ -1,7 +1,7 @@
 const {
   shareAll,
   withModuleFederationPlugin,
-} = require('@angular-architects/module-federation/webpack');
+} = require('@angular-architects/module-federation/webpack.js');
 
 module.exports = withModuleFederationPlugin({
   name: 'products',

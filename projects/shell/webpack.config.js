@@ -1,9 +1,9 @@
-import {
+const {
   shareAll,
   withModuleFederationPlugin,
-} from '@angular-architects/module-federation/webpack';
+} = require('@angular-architects/module-federation/webpack.js');
 
-export default withModuleFederationPlugin({
+module.exports = withModuleFederationPlugin({
   name: 'shell',
 
   exposes: {
